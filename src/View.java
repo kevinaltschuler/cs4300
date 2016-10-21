@@ -111,7 +111,7 @@ public class View
          * Right now this matrix is identity, which means "no transformations"
          */
         modelView.push(new Matrix4f());
-        modelView.peek().lookAt(new Vector3f(0,50,80),new Vector3f(0,50,0),new Vector3f(0,1,0))
+        modelView.peek().lookAt(new Vector3f(-50,0,80),new Vector3f(-50,0,0),new Vector3f(0,1,0))
                         .mul(trackballTransform);
 
 
